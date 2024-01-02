@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const urlRoute = require("./routes/urlRoute");
 const staticRoute = require("./routes/staticRoute");
-const port = 5000;
+const port = 8000;
 
 app.set('view engine', 'ejs');
 app.set('views', './views');
